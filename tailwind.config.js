@@ -1,0 +1,38 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ['./index.html', './app.js'],
+  theme: {
+    extend: {
+      colors: {
+        primary1: 'var(--clr-primary-1)',
+        primary2: 'var(--clr-primary-2)',
+        primary3: 'hsl(205, 72%, 37%)',
+        primary4: 'var(--clr-primary-4)',
+        primary5: 'var(--clr-primary-5)',
+        primary6: 'var(--clr-primary-6)',
+        primary7: 'var(--clr-primary-7)',
+        primary8: 'var(--clr-primary-8)',
+        primary9: 'var(--clr-primary-9)',
+        primary10: 'var(--clr-primary-10)',
+        grey1: 'var(--clr-grey-1)',
+        grey2: 'var(--clr-grey-2)',
+        grey3: 'var(--clr-grey-3)',
+        grey4: 'var(--clr-grey-4)',
+        grey5: 'var(--clr-grey-5)',
+        grey6: 'var(--clr-grey-6)',
+        grey7: 'var(--clr-grey-7)',
+        grey8: 'var(--clr-grey-8)',
+        grey9: 'var(--clr-grey-9)',
+        grey10: 'var(--clr-grey-10)',
+        white: 'var(--clr-white)',
+        redDark: 'var(--clr-red-dark)',
+        redLight: 'var(--clr-red-light)',
+        greenDark: 'var(--clr-green-dark)',
+        greenLight: 'var(--clr-green-light)',
+        black: 'var(--clr-black)',
+        gold: 'var(--clr-gold)',
+      },
+    },
+  },
+  plugins: [],
+};
